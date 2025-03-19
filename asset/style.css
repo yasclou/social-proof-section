@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "League Spartan", sans-serif;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh;
+    text-align: center;
+}
+
+h1{
+color: hsl(300, 43%, 22%);
+font-size: 40px;
+margin: 100px 30px 20px 30px;
+}
+
+h2{
+    color:hsl(303, 10%, 53%);
+    font-size: 17px;
+    margin: 10px 20px 30px 20px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.card-style1-1, .card-style1-2, .card-style1-3{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.star{
+    padding: 5px;
+}
+
+h3{
+color: hsl(300, 43%, 22%);
+font-size: 16px;
+font-weight: 800;
+margin-top: 10px;
+}
+
+.card-style2-1, .card-style2-2, .card-style2-3{
+    background-color:  hsl(300, 43%, 22%);
+    border-radius: 5px;
+    padding: 40px 30px;
+    margin:20px 10px 10px 10px;
+    color: white;
+}
+
+.user{
+align-items:center;
+display: flex;
+flex-direction: row;
+gap: 24px;
+}
+
+.user img{
+    border-radius: 50%;
+    width: 40px;
+}
+
+h4{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+h5{
+    font-size: 16px;
+    text-align: left;
+    color: hsl(333, 80%, 67%);
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+p{
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.attribution{
+    font-size: small;
+}
+.attribution a{
+color:black;
+font-size: small;
+text-decoration: none;
+}
+
+@media (min-width:376px) {
+body{
+    margin: 30px 200px;
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    float:left;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 62px;
+}
+h1{
+    font-size: 52px;
+    margin-top: 0;
+    float: left;
+    width: 440px;
+    margin-left: 0;
+}
+
+h2{
+    float: left;
+    width: 440px;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+.section2{
+    margin-top: 30px;
+}
+
+.card-style1-1, .card-style1-2, .card-style1-3{
+    margin-top: 10px;
+    float: right;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    gap:24px;
+    padding: 10px 0 10px 40px;
+}
+.card-style1-1{
+    margin-right: 100px;
+}
+
+.card-style1-2{
+    margin-right: 50px;
+}
+
+.section3{
+margin-top: 320px;
+display: flex;
+flex-direction: row;
+}
+.card-style2-2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.card-style2-3{
+    margin-top: 80px;
+}
+
+.card-style2-1{
+    margin-bottom: 80px;
+}
+
+footer{
+    margin-top: 20px;
+}
+}
